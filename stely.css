@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: font-family: 'Nunito', sans-serif;;
+}
+header{
+display: flex;
+align-items: center;
+justify-content: space-around;
+box-shadow: 0px 2px 2px lightcoral ;
+height: 13vh;
+}
+header div{
+    display: flex;
+   
+}
+header ul{
+    display: flex;
+    list-style: none;
+    width: 32vw;
+    justify-content: space-evenly;
+}
+header h2{
+    margin-left: 10px;
+}
+main{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    justify-content: space-around;
+}
+main section{
+
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 45vh;
+    justify-content: space-between;
+
+}
+main div{
+    display: flex;
+    flex-direction: column;
+  
+    height: 19vh;
+    justify-content: space-between;
+}
+
+h1{
+    width: 35vw;
+}
+
+button{
+    background-color: #FCA60F;
+    width: 19vw;
+    height: 7vh;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+main nav{
+    display: flex;
+    justify-content: space-around;
+    width: 10vw;
+}
+
+
+
+
+@media (max-width:500px){
+    header{
+        flex-direction: column;
+      
+    }
+    header ul{
+        width: 80vw;
+    }
+    main section {
+        width: 100vw;
+        align-items: center;
+        height: 58vh;
+
+    }
+    main figure{
+        display: none;
+    }
+    h1{
+        width: 85vw;
+   text-align: center;
+    }
+    main div{
+        align-items: center;
+        height: 25vh;
+    }
+    button{
+        width: 72vw;
+        font-size: 22px;
+    }
+main nav{
+width: 50vw;
+}
+
+    
+}
